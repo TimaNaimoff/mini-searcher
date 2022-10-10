@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource
+        driverClassName="org.postgresql.Driver"
+        maxActive="4"
+        maxIdle="2"
+        maxWait="5000"
+        name="jdbc/areaSearcher"
+        username="postgres"
+        password="TERMIT006WIN"
+        type="javax.sql.DataSource"
+        url="jdbc:postgresql://localhost:5432/area_searcher"
+        validationQuery="SELECT 1">
+    </Resource>
+</Context>
